@@ -1,0 +1,145 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color: #ddd;
+}
+
+.navbar{
+    background: darkblue ;
+    padding: 1rem;
+}
+.navbar h1, label{
+    color:#fff;
+}
+
+.navbar h1{
+    font-size: 2.5rem;
+}
+
+.logo{
+    width:50%;
+    float: left;
+}
+
+.login-content{
+    width:50%;
+    float: right;
+}
+
+
+.navbar::after{
+    content: "";
+    display: block;
+    clear:both;
+}
+
+.phone{
+    width:49%;
+    float: left;
+}
+
+.password{
+    width:49%;
+    float: right;
+}
+
+.navbar input.btn-submit{
+    padding: 0.2rem;
+    color:#fff;
+    background-color: darkblue;
+}
+
+
+
+/* ##################### fb front styling ####################### */
+
+.network-img{
+    width:49%;
+    float: left;
+}
+
+.main-content{
+    width:49%;
+    float: right;
+}
+
+
+.fb-front{
+    margin:2rem 0;
+}
+
+.fb-front::after{
+    content: "";
+    display: block;
+    clear:both;
+}
+
+.network-img{
+    padding:1rem 0.5rem;
+}
+.network-img p{
+    font-weight: 600;
+}
+
+
+.network-img img{
+    text-align: center;
+    width:95%;
+    margin:2rem 0;
+    object-fit: cover;
+}
+
+/* ######################### main content #################### */
+
+.main-content input.name{
+    width:49%;
+}
+
+.main-content input{
+    width: 99%;
+}
+
+.main-content input.date{
+    width: 49%;
+}
+
+.main-content input.gender{
+    width: fit-content;
+}
+
+.main-content a.create-account-btn{
+    color:#fff;
+    background-color: green;
+    text-decoration: none;
+    padding: 0.5rem 0.2rem;
+    border:2px solid green;
+    border-radius:0.5rem;
+}
+
+.header .fb-front .main-content input{
+    padding: 0.5rem;
+} 
+
+.network-img , .main-content{
+    height:620px;
+}
+
+
+
+
+/* ####################### utility class ######################### */
+.container{
+    max-width: 1200vh;
+    width:90%;
+    margin:0 auto;
+}
+
+
+
